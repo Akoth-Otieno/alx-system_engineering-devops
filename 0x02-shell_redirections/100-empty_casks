@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f d -empty -delete
+find . -type d -empty -delete -o -type f -empty -delete
