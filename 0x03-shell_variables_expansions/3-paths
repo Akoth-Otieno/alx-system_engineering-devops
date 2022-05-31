@@ -1,2 +1,2 @@
 #!/bin/bash
-echo */PATH | wc
+echo find $PATH -type f | wc -l
