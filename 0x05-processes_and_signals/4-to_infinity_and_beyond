@@ -5,6 +5,6 @@
 x=0
 while [ $x -eq 0 ]
 do
- echo "To Infinity and Beyond"
+ echo "To Infinity and beyond"
  sleep 2
 done
