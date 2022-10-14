@@ -18,7 +18,6 @@ do
  sleep 2
  trap 'echo I hate the kill command' SIGTERM
  trap 'echo "Y U no love me?!"' SIGINT
- trap 'rm /var/run/holbertonscript.pid; exit' SIGQUIT
+ trap 'rm $pidfile; exit' SIGQUIT
 done
 
-# delete the file after the process
